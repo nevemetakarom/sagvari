@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+.container{
+    text-align: center;
+    color: #fff;
+    padding-top: 182px;
+}
+.container h1{
+    font-size: 58px;
+    font-family: Verdana;
+}
+.container p{
+    font-size: 24px;
+    font-family: Verdana;
+    margin-top: 48px;
+}
+.buttons{
+    margin: 69px auto 0;
+}
+.buttons a{
+    width: 160px;
+    text-decoration: none;
+    z-index: 1;
+    color: #fff;
+    border: .50px solid #fff;
+    transition: color 0.5s;
+    font-family: Verdana;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    position: relative;
+}
+.buttons a span{
+    width:  0%;
+    top: 0;
+    left: 0;
+    background: rgb(1, 7, 90);
+    z-index: -1;
+    transition: 1s;
+    height: 100%;
+    position: absolute;
+
+}
+#gombok{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: rgb(241, 28, 28);
+}
+.buttons a:hover span{
+    width: 100%;
+}
+.buttons a:hover{
+    color: rgb(255, 255, 255);
+}
